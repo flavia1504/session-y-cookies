@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 5px;
+  color:blue;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 25% 4rem 25%;
+  padding: 3rem;
+  border: 5px black solid;
+  border-radius: 25px;
+}
+
+.formContainer .form-group{
+  width: 100%;   
+}
+
+.form-control {
+  border-radius: 20px;
+}
+.enviar {
+  border-radius: 15px;
+  border: 2px black solid;
+  padding: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+
+}    
+
+.borrar {
+  border-radius: 15px;
+  border: 2px black solid;
+  padding: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+
+}    
+
+h2{
+  color: blue;
+}
+
+
+h2 a {
+  color: blue;
+  text-decoration: underline;
+}
+

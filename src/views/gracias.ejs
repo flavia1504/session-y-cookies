@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: <%= session.userData ? session.userData.color : null %>
+        }
+    </style>
+    <h2><a href="/"> Volver al formulario</a></h2>
+    <% if(session.userData) { %>
+    <p><%= session.userData.name %>, gracias por visitarnos.</p>
+    <p>Elegiste el color: <%= session.userData.colorTexto %></p>
+    <p>Tu mail es: <%= session.userData.mail %></p>
+    <p>Tu edad es: <%= session.userData.age %></p>
+    <% } else { %>
+    <p>Complete los datos en el formulario, por favor</p>
+    <% } %>
+    
+
+</body>
+</html>

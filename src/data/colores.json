@@ -1,0 +1,30 @@
+[
+    {
+        "valor": "red",
+        "texto": "Rojo"
+    },
+    {
+        "valor": "blue",
+        "texto": "Azul"
+    },
+    {
+        "valor": "green",
+        "texto": "Verde"
+    },
+    {
+        "valor": "yellow",
+        "texto": "Amarillo"
+    },
+    {
+        "valor": "orange",
+        "texto": "Naranja"
+    },
+    {
+        "valor": "purple",
+        "texto": "Morado"
+    },
+    {
+        "valor": "skyblue",
+        "texto": "Celeste"
+    }
+]
